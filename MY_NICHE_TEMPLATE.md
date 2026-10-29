@@ -41,4 +41,4 @@
 
 ---
 
-*Generated using the [AI-First Company Framework](https://github.com/yourusername/ai-first-company)*
+*Generated using the [AI-First Company Framework](https://github.com/1269/ai-first-company)*

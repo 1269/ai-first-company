@@ -14,7 +14,7 @@ This is a framework of guides, prompts, and commands — not a software applicat
 ## Step 1: Clone the Repo
 
 ```bash
-git clone https://github.com/yourusername/ai-first-company.git
+git clone https://github.com/1269/ai-first-company.git
 cd ai-first-company
 ```
 
@@ -109,7 +109,7 @@ git pull origin main
 If you've forked, sync with upstream:
 
 ```bash
-git remote add upstream https://github.com/yourusername/ai-first-company.git
+git remote add upstream https://github.com/1269/ai-first-company.git
 git fetch upstream
 git merge upstream/main
 ```
