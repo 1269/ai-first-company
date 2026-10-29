@@ -1,0 +1,67 @@
+{
+  "name": "Lead Research Agent",
+  "description": "Researches prospects and generates personalized outreach context.",
+  "version": "0.1.0",
+  "trigger": {
+    "type": "manual",
+    "details": "Provide prospect name, company name, and your niche/offer context."
+  },
+  "inputs": [
+    {
+      "name": "prospect_name",
+      "type": "string",
+      "source": "User input or CRM",
+      "required": true
+    },
+    {
+      "name": "company_name",
+      "type": "string",
+      "source": "User input or CRM",
+      "required": true
+    },
+    {
+      "name": "niche_statement",
+      "type": "string",
+      "source": "MY_NICHE.md",
+      "required": true
+    },
+    {
+      "name": "offer_summary",
+      "type": "string",
+      "source": "Offer document",
+      "required": false
+    }
+  ],
+  "outputs": [
+    {
+      "name": "research_report",
+      "type": "object",
+      "destination": "CRM notes, Slack notification, or local file"
+    },
+    {
+      "name": "draft_outreach",
+      "type": "string",
+      "destination": "Review queue (requires human approval)"
+    }
+  ],
+  "guardrails": [
+    "Never fabricate information — flag unknowns explicitly",
+    "Never send outreach without human approval",
+    "Do not include private personal information",
+    "Flag confidence levels on all findings"
+  ],
+  "human_checkpoints": [
+    "Review draft outreach message before sending",
+    "Validate pain hypothesis before using in outreach"
+  ],
+  "tools": [
+    {
+      "name": "web_search",
+      "purpose": "Research prospect and company information"
+    },
+    {
+      "name": "web_fetch",
+      "purpose": "Read full articles and LinkedIn profiles"
+    }
+  ]
+}

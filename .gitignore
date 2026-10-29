@@ -1,0 +1,21 @@
+# Personal business files (don't commit your actual niche/offer docs)
+MY_NICHE.md
+my-*.md
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node
+node_modules/
+package-lock.json
+
+# Env
+.env
+.env.local
