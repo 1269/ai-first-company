@@ -1,0 +1,8 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+# the close-out hook's lock file
+tasks/.close-out.lock
+# Frenemy's working copies, if you use it
+.worker-state/

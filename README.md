@@ -119,6 +119,7 @@ ai-first-company/
 |----------|--------------|--------|
 | [Project Structure](templates/project-structure/) | Scaffold for an AI-first project | Available |
 | [Lead Research Agent](agents/templates/lead-research-agent/) | Researches a prospect and drafts outreach context | Available |
+| [Marketing Department](templates/marketing-department/) | One folder Claude, ChatGPT and Gemini all work in; every session writes back before it ends | Available |
 | MVP Checklist | Readiness checklist before shipping | Coming soon |
 | Marketing Plan | Pre-launch marketing template | Coming soon |
 | Analytics Config | Starter tracking setup | Coming soon |
@@ -137,6 +138,7 @@ The `.claude/commands/` directory contains slash commands you can use directly:
 /audit-skills
 /design-offer
 /generate-agent
+/build-marketing-department
 ```
 
 ### Cursor / Other AI Assistants

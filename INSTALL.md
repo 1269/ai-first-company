@@ -42,6 +42,7 @@ Once inside Claude Code, type `/` to see available commands:
 /audit-skills      — Inventory your skills and experience
 /design-offer      — Design your first offer using the Value Equation
 /generate-agent    — Scaffold a new AI agent for your business
+/build-marketing-department  (one folder every AI works in, from the video)
 ```
 
 ### Option B: Cursor
